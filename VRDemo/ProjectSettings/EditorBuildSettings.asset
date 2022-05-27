@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 0
+    path: Assets/Scenes/SampleScene.unity
+    guid: d1c3109bdb54ad54c8a2b2838528e640
+  - enabled: 1
+    path: Assets/Scenes/RoomLayout.unity
+    guid: a8f1f8213e5654f488d691bacb248516
+  - enabled: 1
+    path: Assets/Scenes/ZombieScene.unity
+    guid: a8bbc80f49575c54195ab642094c5576
+  - enabled: 1
+    path: Assets/Scenes/Tutorial.unity
+    guid: 87c884db8c8e8bc4cb89e0cac82f8788
+  m_configObjects:
+    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 309dc2cd5c0c182439228421ae79c306, type: 2}
+    Unity.XR.WindowsMR.Settings: {fileID: 11400000, guid: afa42b78a47c51443b95df08a8a935a9, type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 58c024a719457cd4181b89151a15cb7f, type: 2}
+    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: fd4190ef28761494393adfce35c34037, type: 2}

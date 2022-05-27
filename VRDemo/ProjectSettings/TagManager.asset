@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Zombie
+  - Bullet
+  - Plank
+  - Hammer
+  - Window
+  - Floor
+  - WindowBox
+  - OuterPlank
+  - NavMesh
+  - WindowStopPoint
+  - CheckForPlanks
+  - CheckForZombies
+  - Inside
+  - SocialDistance
+  - PlankChecker
+  - Forward
+  - Link
+  - Test
+  - KeypadButton
+  - Enter
+  - Back
+  - Keycard
+  - Fingertip
+  - Lookat
+  - Hand
+  - Button
+  - Target
+  - LT
+  - RT
+  - Doorknob
+  - SCS
+  - Scanner
+  - PlayerBlood
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - Grab
+  - Ground
+  - Body
+  - Player
+  - Phase
+  - Plank
+  - Hammer
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0

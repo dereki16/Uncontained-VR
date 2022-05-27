@@ -1,0 +1,382 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1462877960097547544
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1462877960097547546}
+  - component: {fileID: 1462877960097547547}
+  m_Layer: 0
+  m_Name: Audio Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1462877960097547546
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1462877960097547544}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1462877960097547547
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1462877960097547544}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 506f94c19446c59408695a2b916b8cdf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: AimByTaheda
+    clip: {fileID: 8300000, guid: a19840f4c705f2344804b96c88e93c10, type: 3}
+    volume: 1
+    pitch: 1
+    spatialBlend: 0
+    loop: 1
+    stop: 0
+    source: {fileID: 0}
+  - name: Gunshot
+    clip: {fileID: 8300000, guid: 697b66535c9199845bc6b5d0e9f37224, type: 3}
+    volume: 1
+    pitch: 1
+    spatialBlend: 0.2
+    loop: 0
+    stop: 0
+    source: {fileID: 0}
+  - name: KeypadBeep
+    clip: {fileID: 8300000, guid: 45b89fda20c9556418c5682a7ac4ae3c, type: 3}
+    volume: 1
+    pitch: 1
+    spatialBlend: 1
+    loop: 0
+    stop: 0
+    source: {fileID: 0}
+  - name: KeypadWrongAnswer
+    clip: {fileID: 8300000, guid: 4ea8d79441317604e8e764ab058d49e4, type: 3}
+    volume: 1
+    pitch: 1
+    spatialBlend: 1
+    loop: 0
+    stop: 0
+    source: {fileID: 0}
+  - name: PlayerHit
+    clip: {fileID: 8300000, guid: e6c3de8e8a18b8141b200e4e7343944e, type: 3}
+    volume: 1
+    pitch: 1
+    spatialBlend: 0
+    loop: 0
+    stop: 0
+    source: {fileID: 0}
+  - name: SafeOpen
+    clip: {fileID: 8300000, guid: 46c8fd52b8baf8042a6359fa6059b3d5, type: 3}
+    volume: 1
+    pitch: 1
+    spatialBlend: 1
+    loop: 0
+    stop: 0
+    source: {fileID: 0}
+  - name: ZG26
+    clip: {fileID: 8300000, guid: eb963a74639133141ba51cb78e6d1722, type: 3}
+    volume: 1
+    pitch: 1
+    spatialBlend: 1
+    loop: 0
+    stop: 0
+    source: {fileID: 0}
+  - name: ZG27
+    clip: {fileID: 8300000, guid: addf38681becc5c41a563c88ba281f31, type: 3}
+    volume: 1
+    pitch: 1
+    spatialBlend: 1
+    loop: 0
+    stop: 0
+    source: {fileID: 0}
+  - name: WoodenPlop
+    clip: {fileID: 8300000, guid: 70770fd65d1f95f4497cd1f8b9f87fbe, type: 3}
+    volume: 1
+    pitch: 1
+    spatialBlend: 1
+    loop: 0
+    stop: 0
+    source: {fileID: 0}
+  - name: Hammering
+    clip: {fileID: 8300000, guid: dcb2ede93f9b35048af0e33b5651019b, type: 3}
+    volume: 0.8
+    pitch: 1
+    spatialBlend: 1
+    loop: 0
+    stop: 0
+    source: {fileID: 0}
+  - name: ElevatorMusic
+    clip: {fileID: 8300000, guid: fc438d4a208ba784692dde75e6451b4c, type: 3}
+    volume: 1
+    pitch: 1
+    spatialBlend: 1
+    loop: 1
+    stop: 0
+    source: {fileID: 0}
+  - name: ElevatorDing
+    clip: {fileID: 8300000, guid: 0a035fda1e0ace54b92c82efe7a1b204, type: 3}
+    volume: 1
+    pitch: 1
+    spatialBlend: 1
+    loop: 0
+    stop: 0
+    source: {fileID: 0}
+  - name: ZG0
+    clip: {fileID: 8300000, guid: 34939e5ddeba1d04288beec068d1f1c5, type: 3}
+    volume: 1
+    pitch: 1
+    spatialBlend: 1
+    loop: 0
+    stop: 0
+    source: {fileID: 0}
+  - name: ZG1
+    clip: {fileID: 8300000, guid: 2cf8b0573dd1b0e44a4ccff093d4404c, type: 3}
+    volume: 1
+    pitch: 1
+    spatialBlend: 1
+    loop: 0
+    stop: 0
+    source: {fileID: 0}
+  - name: ZG2
+    clip: {fileID: 8300000, guid: 6d2b54d81bb39ee46b3082dbc14091b0, type: 3}
+    volume: 1
+    pitch: 1
+    spatialBlend: 1
+    loop: 0
+    stop: 0
+    source: {fileID: 0}
+  - name: ZG3
+    clip: {fileID: 8300000, guid: 83caa54e6ed946f49af7d4ad8d1c2a18, type: 3}
+    volume: 1
+    pitch: 1
+    spatialBlend: 1
+    loop: 0
+    stop: 0
+    source: {fileID: 0}
+  - name: ZG4
+    clip: {fileID: 8300000, guid: 504559de79f83dd4ca1cd73c9e357c9e, type: 3}
+    volume: 1
+    pitch: 1
+    spatialBlend: 1
+    loop: 0
+    stop: 0
+    source: {fileID: 0}
+  - name: ZG5
+    clip: {fileID: 8300000, guid: 731abaaca8db8e74f80e0e8fd50cf168, type: 3}
+    volume: 1
+    pitch: 1
+    spatialBlend: 1
+    loop: 0
+    stop: 0
+    source: {fileID: 0}
+  - name: ZG6
+    clip: {fileID: 8300000, guid: 5745f4f5358eada4cad766cc74052918, type: 3}
+    volume: 1
+    pitch: 1
+    spatialBlend: 1
+    loop: 0
+    stop: 0
+    source: {fileID: 0}
+  - name: ZG7
+    clip: {fileID: 8300000, guid: f6ae0ac26cecbf945b3f87e4edffe559, type: 3}
+    volume: 1
+    pitch: 1
+    spatialBlend: 1
+    loop: 0
+    stop: 0
+    source: {fileID: 0}
+  - name: ZG8
+    clip: {fileID: 8300000, guid: 5904e6b8e90fbad4d86ffc23e0217e11, type: 3}
+    volume: 1
+    pitch: 1
+    spatialBlend: 1
+    loop: 0
+    stop: 0
+    source: {fileID: 0}
+  - name: ZG9
+    clip: {fileID: 8300000, guid: 4152a3365f19d614cb33b9ae20ac262e, type: 3}
+    volume: 1
+    pitch: 1
+    spatialBlend: 1
+    loop: 0
+    stop: 0
+    source: {fileID: 0}
+  - name: ZG10
+    clip: {fileID: 8300000, guid: 632702b7a87fd7640a5bbbb701e91098, type: 3}
+    volume: 1
+    pitch: 1
+    spatialBlend: 1
+    loop: 0
+    stop: 0
+    source: {fileID: 0}
+  - name: ZG11
+    clip: {fileID: 8300000, guid: 9974d28c6cb665e42b8bbb0915c7ded4, type: 3}
+    volume: 1
+    pitch: 1
+    spatialBlend: 1
+    loop: 0
+    stop: 0
+    source: {fileID: 0}
+  - name: ZG12
+    clip: {fileID: 8300000, guid: 4efade83e67965b4fb6c4b827ba430a4, type: 3}
+    volume: 1
+    pitch: 1
+    spatialBlend: 1
+    loop: 0
+    stop: 0
+    source: {fileID: 0}
+  - name: ZG13
+    clip: {fileID: 8300000, guid: b6d8d864d0b18ca4f948d4abea178579, type: 3}
+    volume: 1
+    pitch: 1
+    spatialBlend: 1
+    loop: 0
+    stop: 0
+    source: {fileID: 0}
+  - name: ZG14
+    clip: {fileID: 8300000, guid: 509e0d4783ad97a4db13ecf06a5de15c, type: 3}
+    volume: 1
+    pitch: 1
+    spatialBlend: 1
+    loop: 0
+    stop: 0
+    source: {fileID: 0}
+  - name: ZG15
+    clip: {fileID: 8300000, guid: 3f41bfcf9fc0297408de6a5a6a156633, type: 3}
+    volume: 1
+    pitch: 1
+    spatialBlend: 1
+    loop: 0
+    stop: 0
+    source: {fileID: 0}
+  - name: ZG16
+    clip: {fileID: 8300000, guid: ba35500aa5ee41b49938192811d6055a, type: 3}
+    volume: 1
+    pitch: 1
+    spatialBlend: 1
+    loop: 0
+    stop: 0
+    source: {fileID: 0}
+  - name: ZG17
+    clip: {fileID: 8300000, guid: 65b120398f8ef154ab383a8ad99b47cb, type: 3}
+    volume: 1
+    pitch: 1
+    spatialBlend: 1
+    loop: 0
+    stop: 0
+    source: {fileID: 0}
+  - name: ZG18
+    clip: {fileID: 8300000, guid: f49fb415d2006cb4b89c3399ea7be73e, type: 3}
+    volume: 1
+    pitch: 1
+    spatialBlend: 1
+    loop: 0
+    stop: 0
+    source: {fileID: 0}
+  - name: ZG19
+    clip: {fileID: 8300000, guid: 8990eaa2b50e75945bc7ddb40fc0e0db, type: 3}
+    volume: 1
+    pitch: 1
+    spatialBlend: 1
+    loop: 0
+    stop: 0
+    source: {fileID: 0}
+  - name: ZG20
+    clip: {fileID: 8300000, guid: 375a96e95b50e704cbeed87ea197eb3c, type: 3}
+    volume: 1
+    pitch: 1
+    spatialBlend: 1
+    loop: 0
+    stop: 0
+    source: {fileID: 0}
+  - name: ZG21
+    clip: {fileID: 8300000, guid: 0a268599864202e438bc9c4e0926e78e, type: 3}
+    volume: 1
+    pitch: 1
+    spatialBlend: 1
+    loop: 0
+    stop: 0
+    source: {fileID: 0}
+  - name: ZG22
+    clip: {fileID: 8300000, guid: 4a4264cddcf67b148aaec685e4c45b05, type: 3}
+    volume: 1
+    pitch: 1
+    spatialBlend: 1
+    loop: 0
+    stop: 0
+    source: {fileID: 0}
+  - name: ZG23
+    clip: {fileID: 8300000, guid: 205a092ae0805c84086fc195805e1cdb, type: 3}
+    volume: 1
+    pitch: 1
+    spatialBlend: 1
+    loop: 0
+    stop: 0
+    source: {fileID: 0}
+  - name: ZG24
+    clip: {fileID: 8300000, guid: dfadef2efca7da44bb84dd0d751cdc75, type: 3}
+    volume: 1
+    pitch: 1
+    spatialBlend: 1
+    loop: 0
+    stop: 0
+    source: {fileID: 0}
+  - name: ZG25
+    clip: {fileID: 8300000, guid: 705037d32f84efc499d3f850cbd02acb, type: 3}
+    volume: 1
+    pitch: 1
+    spatialBlend: 1
+    loop: 0
+    stop: 0
+    source: {fileID: 0}
+  - name: WinGame
+    clip: {fileID: 8300000, guid: bfa6585c38aeb4b4aab145dd3d23ba93, type: 3}
+    volume: 1
+    pitch: 1
+    spatialBlend: 0
+    loop: 1
+    stop: 0
+    source: {fileID: 0}
+  - name: MainMenu
+    clip: {fileID: 8300000, guid: 35bd5552bb1fa964d90892d78cd84a16, type: 3}
+    volume: 1
+    pitch: 1
+    spatialBlend: 0
+    loop: 1
+    stop: 0
+    source: {fileID: 0}
+  - name: RoundOver
+    clip: {fileID: 8300000, guid: 33d29f5f49b70ed41af3c56383c9df62, type: 3}
+    volume: 1
+    pitch: 1
+    spatialBlend: 0
+    loop: 0
+    stop: 0
+    source: {fileID: 0}
+  - name: Ambience
+    clip: {fileID: 8300000, guid: d37bce4e4eacdd147a87254748aa73ef, type: 3}
+    volume: 0.75
+    pitch: 1
+    spatialBlend: 0.25
+    loop: 1
+    stop: 0
+    source: {fileID: 0}
